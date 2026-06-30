@@ -55,7 +55,50 @@
 		3022EE342FE875D700847CF8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3022EDFD2FE875D700847CF8 /* ContentView.swift */; };
 		3022EE352FE875D700847CF8 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3022EE032FE875D700847CF8 /* SceneDelegate.swift */; };
 		3022EE362FE875D700847CF8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3022EE042FE875D700847CF8 /* ViewController.swift */; };
+		30A35F262FF3AE2600F171B4 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A35F1C2FF3AE2600F171B4 /* LoadingViewController.swift */; };
+		30A35F272FF3AE2600F171B4 /* PushNotificationURLRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A35F222FF3AE2600F171B4 /* PushNotificationURLRouter.swift */; };
+		30A35F282FF3AE2600F171B4 /* NoInternetView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A35F1E2FF3AE2600F171B4 /* NoInternetView.swift */; };
+		30A35F292FF3AE2600F171B4 /* UserAgentBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A35F232FF3AE2600F171B4 /* UserAgentBuilder.swift */; };
+		30A35F2A2FF3AE2600F171B4 /* ConfigManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A35F192FF3AE2600F171B4 /* ConfigManager.swift */; };
+		30A35F2B2FF3AE2600F171B4 /* NetworkAvailability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A35F1D2FF3AE2600F171B4 /* NetworkAvailability.swift */; };
+		30A35F2C2FF3AE2600F171B4 /* NotificationPermissionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A35F212FF3AE2600F171B4 /* NotificationPermissionViewController.swift */; };
+		30A35F2D2FF3AE2600F171B4 /* LoadingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A35F1A2FF3AE2600F171B4 /* LoadingManager.swift */; };
+		30A35F2E2FF3AE2600F171B4 /* WebviewVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A35F242FF3AE2600F171B4 /* WebviewVC.swift */; };
+		30A35F2F2FF3AE2600F171B4 /* AppsFlyerManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A35F182FF3AE2600F171B4 /* AppsFlyerManager.swift */; };
+		30A35F302FF3AE2600F171B4 /* NotificationPermissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A35F202FF3AE2600F171B4 /* NotificationPermissionView.swift */; };
+		30A35F312FF3AE2600F171B4 /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A35F1B2FF3AE2600F171B4 /* LoadingView.swift */; };
+		30A35F322FF3AE2600F171B4 /* NotificationPermissionManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A35F1F2FF3AE2600F171B4 /* NotificationPermissionManager.swift */; };
+		30A35F3E2FF3AE7E00F171B4 /* NotificationServiceExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 30A35F372FF3AE7E00F171B4 /* NotificationServiceExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		30A35F462FF3AEC000F171B4 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 30A35F452FF3AEC000F171B4 /* FirebaseMessaging */; };
+		30A35F492FF3AEE500F171B4 /* AppsFlyerLib-Static in Frameworks */ = {isa = PBXBuildFile; productRef = 30A35F482FF3AEE500F171B4 /* AppsFlyerLib-Static */; };
+		30A35F4B2FF3AEED00F171B4 /* FirebaseMessaging in Frameworks */ = {isa = PBXBuildFile; productRef = 30A35F4A2FF3AEED00F171B4 /* FirebaseMessaging */; };
+		30A35F502FF3AEF100F171B4 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30A35F4D2FF3AEF100F171B4 /* NotificationService.swift */; };
+		30A35F532FF3AFF800F171B4 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 30A35F522FF3AFF800F171B4 /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		30A35F3C2FF3AE7E00F171B4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3022EBDC2FE6D93900847CF8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 30A35F362FF3AE7E00F171B4;
+			remoteInfo = NotificationServiceExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		30A35F432FF3AE7E00F171B4 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				30A35F3E2FF3AE7E00F171B4 /* NotificationServiceExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		0E26C6E6F50C23D418F98B57 /* Pods-227RavenMethod.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-227RavenMethod.debug.xcconfig"; path = "Target Support Files/Pods-227RavenMethod/Pods-227RavenMethod.debug.xcconfig"; sourceTree = "<group>"; };
@@ -109,6 +152,24 @@
 		3022EE012FE875D700847CF8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		3022EE032FE875D700847CF8 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		3022EE042FE875D700847CF8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		30A35F182FF3AE2600F171B4 /* AppsFlyerManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppsFlyerManager.swift; sourceTree = "<group>"; };
+		30A35F192FF3AE2600F171B4 /* ConfigManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfigManager.swift; sourceTree = "<group>"; };
+		30A35F1A2FF3AE2600F171B4 /* LoadingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingManager.swift; sourceTree = "<group>"; };
+		30A35F1B2FF3AE2600F171B4 /* LoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		30A35F1C2FF3AE2600F171B4 /* LoadingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		30A35F1D2FF3AE2600F171B4 /* NetworkAvailability.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkAvailability.swift; sourceTree = "<group>"; };
+		30A35F1E2FF3AE2600F171B4 /* NoInternetView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NoInternetView.swift; sourceTree = "<group>"; };
+		30A35F1F2FF3AE2600F171B4 /* NotificationPermissionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationPermissionManager.swift; sourceTree = "<group>"; };
+		30A35F202FF3AE2600F171B4 /* NotificationPermissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationPermissionView.swift; sourceTree = "<group>"; };
+		30A35F212FF3AE2600F171B4 /* NotificationPermissionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationPermissionViewController.swift; sourceTree = "<group>"; };
+		30A35F222FF3AE2600F171B4 /* PushNotificationURLRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PushNotificationURLRouter.swift; sourceTree = "<group>"; };
+		30A35F232FF3AE2600F171B4 /* UserAgentBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserAgentBuilder.swift; sourceTree = "<group>"; };
+		30A35F242FF3AE2600F171B4 /* WebviewVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebviewVC.swift; sourceTree = "<group>"; };
+		30A35F372FF3AE7E00F171B4 /* NotificationServiceExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = NotificationServiceExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		30A35F4C2FF3AEF100F171B4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30A35F4D2FF3AEF100F171B4 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		30A35F512FF3AF0100F171B4 /* 227RavenMethod.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = 227RavenMethod.entitlements; sourceTree = "<group>"; };
+		30A35F522FF3AFF800F171B4 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		9DDB2C6837E7BA9843D181F6 /* Pods-227RavenMethod.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-227RavenMethod.release.xcconfig"; path = "Target Support Files/Pods-227RavenMethod/Pods-227RavenMethod.release.xcconfig"; sourceTree = "<group>"; };
 		DF8A26F36692D86F665F31E3 /* Pods_227RavenMethod.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_227RavenMethod.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -118,6 +179,16 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				30A35F462FF3AEC000F171B4 /* FirebaseMessaging in Frameworks */,
+				30A35F492FF3AEE500F171B4 /* AppsFlyerLib-Static in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30A35F342FF3AE7E00F171B4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30A35F4B2FF3AEED00F171B4 /* FirebaseMessaging in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,6 +207,7 @@
 			isa = PBXGroup;
 			children = (
 				3022EE052FE875D700847CF8 /* 227RavenMethod */,
+				30A35F4E2FF3AEF100F171B4 /* NotificationServiceExtension */,
 				3022EBE52FE6D93900847CF8 /* Products */,
 				CB2B2DCCD0E73989BF6E5D28 /* Pods */,
 				0533AA4387925A6DDC67F8B9 /* Frameworks */,
@@ -146,6 +218,7 @@
 			isa = PBXGroup;
 			children = (
 				3022EBE42FE6D93900847CF8 /* 227RavenMethod.app */,
+				30A35F372FF3AE7E00F171B4 /* NotificationServiceExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -366,6 +439,7 @@
 		3022EE052FE875D700847CF8 /* 227RavenMethod */ = {
 			isa = PBXGroup;
 			children = (
+				30A35F512FF3AF0100F171B4 /* 227RavenMethod.entitlements */,
 				3022EDBD2FE875D700847CF8 /* App */,
 				3022EDD72FE875D700847CF8 /* Core */,
 				3022EDF82FE875D700847CF8 /* Features */,
@@ -378,8 +452,39 @@
 				3022EE022FE875D700847CF8 /* Main.storyboard */,
 				3022EE032FE875D700847CF8 /* SceneDelegate.swift */,
 				3022EE042FE875D700847CF8 /* ViewController.swift */,
+				30A35F252FF3AE2600F171B4 /* Loading */,
+				30A35F522FF3AFF800F171B4 /* GoogleService-Info.plist */,
 			);
 			path = 227RavenMethod;
+			sourceTree = "<group>";
+		};
+		30A35F252FF3AE2600F171B4 /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				30A35F182FF3AE2600F171B4 /* AppsFlyerManager.swift */,
+				30A35F192FF3AE2600F171B4 /* ConfigManager.swift */,
+				30A35F1A2FF3AE2600F171B4 /* LoadingManager.swift */,
+				30A35F1B2FF3AE2600F171B4 /* LoadingView.swift */,
+				30A35F1C2FF3AE2600F171B4 /* LoadingViewController.swift */,
+				30A35F1D2FF3AE2600F171B4 /* NetworkAvailability.swift */,
+				30A35F1E2FF3AE2600F171B4 /* NoInternetView.swift */,
+				30A35F1F2FF3AE2600F171B4 /* NotificationPermissionManager.swift */,
+				30A35F202FF3AE2600F171B4 /* NotificationPermissionView.swift */,
+				30A35F212FF3AE2600F171B4 /* NotificationPermissionViewController.swift */,
+				30A35F222FF3AE2600F171B4 /* PushNotificationURLRouter.swift */,
+				30A35F232FF3AE2600F171B4 /* UserAgentBuilder.swift */,
+				30A35F242FF3AE2600F171B4 /* WebviewVC.swift */,
+			);
+			path = Loading;
+			sourceTree = "<group>";
+		};
+		30A35F4E2FF3AEF100F171B4 /* NotificationServiceExtension */ = {
+			isa = PBXGroup;
+			children = (
+				30A35F4C2FF3AEF100F171B4 /* Info.plist */,
+				30A35F4D2FF3AEF100F171B4 /* NotificationService.swift */,
+			);
+			path = NotificationServiceExtension;
 			sourceTree = "<group>";
 		};
 		CB2B2DCCD0E73989BF6E5D28 /* Pods */ = {
@@ -402,15 +507,37 @@
 				3022EBE02FE6D93900847CF8 /* Sources */,
 				3022EBE12FE6D93900847CF8 /* Frameworks */,
 				3022EBE22FE6D93900847CF8 /* Resources */,
+				30A35F432FF3AE7E00F171B4 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				30A35F3D2FF3AE7E00F171B4 /* PBXTargetDependency */,
 			);
 			name = 227RavenMethod;
 			productName = 227RavenMethod;
 			productReference = 3022EBE42FE6D93900847CF8 /* 227RavenMethod.app */;
 			productType = "com.apple.product-type.application";
+		};
+		30A35F362FF3AE7E00F171B4 /* NotificationServiceExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30A35F402FF3AE7E00F171B4 /* Build configuration list for PBXNativeTarget "NotificationServiceExtension" */;
+			buildPhases = (
+				30A35F332FF3AE7E00F171B4 /* Sources */,
+				30A35F342FF3AE7E00F171B4 /* Frameworks */,
+				30A35F352FF3AE7E00F171B4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NotificationServiceExtension;
+			packageProductDependencies = (
+				30A35F4A2FF3AEED00F171B4 /* FirebaseMessaging */,
+			);
+			productName = NotificationServiceExtension;
+			productReference = 30A35F372FF3AE7E00F171B4 /* NotificationServiceExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -419,11 +546,14 @@
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 2650;
+				LastSwiftUpdateCheck = 2660;
 				LastUpgradeCheck = 2650;
 				TargetAttributes = {
 					3022EBE32FE6D93900847CF8 = {
 						CreatedOnToolsVersion = 26.5;
+					};
+					30A35F362FF3AE7E00F171B4 = {
+						CreatedOnToolsVersion = 26.6;
 					};
 				};
 			};
@@ -436,11 +566,16 @@
 				Base,
 			);
 			mainGroup = 3022EBDB2FE6D93900847CF8;
+			packageReferences = (
+				30A35F442FF3AEC000F171B4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+				30A35F472FF3AEE500F171B4 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */,
+			);
 			productRefGroup = 3022EBE52FE6D93900847CF8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				3022EBE32FE6D93900847CF8 /* 227RavenMethod */,
+				30A35F362FF3AE7E00F171B4 /* NotificationServiceExtension */,
 			);
 		};
 /* End PBXProject section */
@@ -452,8 +587,16 @@
 			files = (
 				3022EE062FE875D700847CF8 /* privacy_policy.md in Resources */,
 				3022EE072FE875D700847CF8 /* Assets.xcassets in Resources */,
+				30A35F532FF3AFF800F171B4 /* GoogleService-Info.plist in Resources */,
 				3022EE092FE875D700847CF8 /* LaunchScreen.storyboard in Resources */,
 				3022EE0A2FE875D700847CF8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		30A35F352FF3AE7E00F171B4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -531,12 +674,41 @@
 				3022EE322FE875D700847CF8 /* WeeklyReviewViewModel.swift in Sources */,
 				3022EE332FE875D700847CF8 /* AppDelegate.swift in Sources */,
 				3022EE342FE875D700847CF8 /* ContentView.swift in Sources */,
+				30A35F262FF3AE2600F171B4 /* LoadingViewController.swift in Sources */,
+				30A35F272FF3AE2600F171B4 /* PushNotificationURLRouter.swift in Sources */,
+				30A35F282FF3AE2600F171B4 /* NoInternetView.swift in Sources */,
+				30A35F292FF3AE2600F171B4 /* UserAgentBuilder.swift in Sources */,
+				30A35F2A2FF3AE2600F171B4 /* ConfigManager.swift in Sources */,
+				30A35F2B2FF3AE2600F171B4 /* NetworkAvailability.swift in Sources */,
+				30A35F2C2FF3AE2600F171B4 /* NotificationPermissionViewController.swift in Sources */,
+				30A35F2D2FF3AE2600F171B4 /* LoadingManager.swift in Sources */,
+				30A35F2E2FF3AE2600F171B4 /* WebviewVC.swift in Sources */,
+				30A35F2F2FF3AE2600F171B4 /* AppsFlyerManager.swift in Sources */,
+				30A35F302FF3AE2600F171B4 /* NotificationPermissionView.swift in Sources */,
+				30A35F312FF3AE2600F171B4 /* LoadingView.swift in Sources */,
+				30A35F322FF3AE2600F171B4 /* NotificationPermissionManager.swift in Sources */,
 				3022EE352FE875D700847CF8 /* SceneDelegate.swift in Sources */,
 				3022EE362FE875D700847CF8 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		30A35F332FF3AE7E00F171B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30A35F502FF3AEF100F171B4 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		30A35F3D2FF3AE7E00F171B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 30A35F362FF3AE7E00F171B4 /* NotificationServiceExtension */;
+			targetProxy = 30A35F3C2FF3AE7E00F171B4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		3022EE002FE875D700847CF8 /* LaunchScreen.storyboard */ = {
@@ -564,6 +736,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = 227RavenMethod/227RavenMethod.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -583,7 +756,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.cli.r8v3nm5th0d;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -606,6 +779,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = 227RavenMethod/227RavenMethod.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -625,7 +799,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.cli.r8v3nm5th0d;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -761,6 +935,70 @@
 			};
 			name = Release;
 		};
+		30A35F412FF3AE7E00F171B4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NotificationServiceExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NotificationServiceExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cli.r8v3nm5th0d.NotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		30A35F422FF3AE7E00F171B4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NotificationServiceExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = NotificationServiceExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.1;
+				PRODUCT_BUNDLE_IDENTIFIER = com.cli.r8v3nm5th0d.NotificationServiceExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_APPROACHABLE_CONCURRENCY = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_UPCOMING_FEATURE_MEMBER_IMPORT_VISIBILITY = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -782,7 +1020,53 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		30A35F402FF3AE7E00F171B4 /* Build configuration list for PBXNativeTarget "NotificationServiceExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30A35F412FF3AE7E00F171B4 /* Debug */,
+				30A35F422FF3AE7E00F171B4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		30A35F442FF3AEC000F171B4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 12.15.0;
+			};
+		};
+		30A35F472FF3AEE500F171B4 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppsFlyerSDK/AppsFlyerFramework-Static";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		30A35F452FF3AEC000F171B4 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30A35F442FF3AEC000F171B4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+		30A35F482FF3AEE500F171B4 /* AppsFlyerLib-Static */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30A35F472FF3AEE500F171B4 /* XCRemoteSwiftPackageReference "AppsFlyerFramework-Static" */;
+			productName = "AppsFlyerLib-Static";
+		};
+		30A35F4A2FF3AEED00F171B4 /* FirebaseMessaging */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 30A35F442FF3AEC000F171B4 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseMessaging;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 3022EBDC2FE6D93900847CF8 /* Project object */;
 }
